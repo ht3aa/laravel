@@ -1,0 +1,41 @@
+{
+    "migrations": {
+        "employees": {
+            "name": {
+                "type": "string",
+                "nullable": false
+            },
+            "email": {
+                "type": "string",
+                "nullable": false
+            }
+        },
+        "departments": {
+            "name": {
+                "type": "string",
+                "nullable": false
+            }
+        }
+    },
+
+    "models": {
+        "Employee": {
+            "fillable": ["name", "email"],
+            "relations": {
+                "HasOne": ["Department"]
+            }
+        },
+
+        "Department" : {
+            "fillable": ["name"],
+            "relations": {
+                "BelongsTo": ["Employee"]
+            }
+        }
+    },
+
+
+    "with-controller-resources" : true,
+    "with-filament-resources": true
+}
+
