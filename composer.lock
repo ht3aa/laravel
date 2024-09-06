@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9bf0d91b6c41ec764d3b1b8f4806d311",
+    "content-hash": "45ef0e08deaf7f38a23af479ba850560",
     "packages": [
         {
             "name": "brick/math",
@@ -1049,52 +1049,6 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
-        },
-        {
-            "name": "hasanweb/blueprint",
-            "version": "0.0.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ht3aa/Blueprint.git",
-                "reference": "3b41e4e710b689b21569e124214b81c87cad4836"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ht3aa/Blueprint/zipball/3b41e4e710b689b21569e124214b81c87cad4836",
-                "reference": "3b41e4e710b689b21569e124214b81c87cad4836",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/console": "^11.22",
-                "illuminate/support": "^11.22",
-                "php": "*"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Hasanweb\\Blueprint\\BlueprintServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Hasanweb\\Blueprint\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "ht3aa",
-                    "email": "ht3aa@gmail.com"
-                }
-            ],
-            "description": "scaffold your app",
-            "support": {
-                "issues": "https://github.com/ht3aa/Blueprint/issues",
-                "source": "https://github.com/ht3aa/Blueprint/tree/0.0.8"
-            },
-            "time": "2024-09-05T17:40:32+00:00"
         },
         {
             "name": "laravel/framework",
@@ -5910,6 +5864,53 @@
                 "source": "https://github.com/hamcrest/hamcrest-php/tree/v2.0.1"
             },
             "time": "2020-07-09T08:09:16+00:00"
+        },
+        {
+            "name": "hasanweb/blueprint",
+            "version": "0.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ht3aa/Blueprint.git",
+                "reference": "92701e0acb2aeb5fc18770c6224608a8d9bd7acb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ht3aa/Blueprint/zipball/92701e0acb2aeb5fc18770c6224608a8d9bd7acb",
+                "reference": "92701e0acb2aeb5fc18770c6224608a8d9bd7acb",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^11.22",
+                "illuminate/support": "^11.22",
+                "php": "*",
+                "symfony/console": "^7.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hasanweb\\Blueprint\\BlueprintServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hasanweb\\Blueprint\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "ht3aa",
+                    "email": "ht3aa@gmail.com"
+                }
+            ],
+            "description": "scaffold your app",
+            "support": {
+                "issues": "https://github.com/ht3aa/Blueprint/issues",
+                "source": "https://github.com/ht3aa/Blueprint/tree/0.0.9"
+            },
+            "time": "2024-09-06T10:58:23+00:00"
         },
         {
             "name": "laravel/pint",
